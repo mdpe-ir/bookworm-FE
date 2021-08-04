@@ -1,10 +1,10 @@
 code{
     direction: ltr;
     float: left;
-    text-align : left;
+    /* text-align : left; */
 }
 
-.header-nav{
+.container, header{
     direction: rtl;
-    float: right;
+    /* float: right; */
 }
