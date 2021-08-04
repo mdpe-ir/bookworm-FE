@@ -1,4 +1,4 @@
-name = "Bookworm"
+name = "Bookworm FOSSFA Edition"
 license = "MIT"
 licenselink = "https://github.com/gethugothemes/bookworm/blob/master/LICENSE"
 description = "Bookworm is clean and modern Hugo blog theme focused on high speed and support muliple authors. Bookworm fits perfectly any kind of blog specially personal, photography, travel or biography blogs. Bookworm is fully responsive, Super fast and powered by Bootstrap."
@@ -6,8 +6,8 @@ homepage = "https://github.com/gethugothemes/bookworm"
 demosite = "https://demo.gethugothemes.com/bookworm/"
 tags = ['blog', 'light', 'bootstrap', 'responsive', 'contact-form']
 features = ['responsive']
-min_version = "0.80.0"
+min_version = "1.0"
 
 [author]
-name = "gethugothemes"
-homepage = "https://gethugothemes.com/"
+name = "FOSSFA Dev Team"
+homepage = "https://FOSSFA.ir"
