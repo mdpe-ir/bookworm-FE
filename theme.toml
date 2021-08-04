@@ -6,7 +6,7 @@ homepage = "https://github.com/gethugothemes/bookworm"
 demosite = "https://demo.gethugothemes.com/bookworm/"
 tags = ['blog', 'light', 'bootstrap', 'responsive', 'contact-form']
 features = ['responsive']
-min_version = "1.0"
+min_version = "0.8.0"
 
 [author]
 name = "FOSSFA Dev Team"
