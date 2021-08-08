@@ -75,6 +75,16 @@
             </div>
             {{ end }}
           </div>
+          <div>
+            <script src="https://utteranc.es/client.js"
+              repo="{{ .Site.Params.commentrepo }}"
+              issue-term="title"
+              label="{{ .Site.Params.Commentlabel }}"
+              theme="{{ .Site.Params.Commenttheme }}"
+              crossorigin="anonymous"
+              async>
+            </script>
+          </div>
         </div>
       </div>
     </div>
