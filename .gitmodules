@@ -1,4 +1,0 @@
-[submodule "exampleSite"]
-	path = exampleSite
-	url = https://github.com/FOSSFA/FOSSFA.github.io.git
-	branch = Dev
