@@ -236,6 +236,9 @@ a.post-title:hover,
 
   img {
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   h1,
@@ -276,7 +279,7 @@ a.post-title:hover,
     list-style-type: none;
 
     li {
-      padding-left: 20px;
+      padding-right: 20px;
       position: relative;
 
       &::before {
@@ -286,7 +289,7 @@ a.post-title:hover,
         width: 8px;
         border-radius: 50%;
         background: $color-primary;
-        left: 3px;
+        right: 3px;
         top: 8px;
       }
     }
