@@ -4,10 +4,10 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8">
-        <form action="{{site.Params.contact_form_action}}">
+        <form action="{{site.Params.contact_form_action}}" netlify="true">
           <div class="mb-4">
             <label for="name" class="form-label">نام شما</label>
-            <input type="email" class="form-control rounded" id="name" placeholder="عباس بوعذار" required>
+            <input type="text" class="form-control rounded" id="name" placeholder="عباس بوعذار" required>
           </div>
           <div class="mb-4">
             <label for="email" class="form-label">آدرس ایمیل</label>
@@ -15,7 +15,7 @@
           </div>
           <div class="mb-4">
             <label for="subject" class="form-label">موضوع</label>
-            <input type="email" class="form-control rounded" id="subject" placeholder="پرداختن به نرم افزار های آزاد غیر متمرکز" required>
+            <input type="text" class="form-control rounded" id="subject" placeholder="پرداختن به نرم افزار های آزاد غیر متمرکز" required>
           </div>
           <div class="mb-4">
             <label for="message" class="form-label">پیام شما</label>
