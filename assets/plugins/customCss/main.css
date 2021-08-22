@@ -1,30 +1,33 @@
-code{
-    direction: ltr;
-    float: left;
-    /* text-align : left; */
-}
-
 .container, header{
     direction: rtl;
-    /* float: right; */
 }
-
 
 @import url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css');
 @import url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css');
 
+@font-face {
+  font-family: Vazir Code;
+  src: url('Vazir-Code.eot');
+  src: url('Vazir-Code.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Code.woff') format('woff'),
+       url('Vazir-Code.ttf') format('truetype');
+  font-weight: normal;
+}
 
-html {
-  position: relative;
-  min-height: 100%;
+@font-face {
+  font-family: Vazir Code Hack;
+  src: url('Vazir-Code-Hack.eot');
+  src: url('Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Code-Hack.woff') format('woff'),
+       url('Vazir-Code-Hack.ttf') format('truetype');
+  font-weight: normal;
 }
 
 pre,
 code {
   background: #F7FAFC;
   color: #000000;
-  font-family: 'Fira Code', monospace;
-  
+  font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;  
 }
 
 pre {
@@ -36,10 +39,11 @@ pre {
   text-align: left;
 }
 
-
 code {
   display: inline-block;
   padding: 0 0.5em;
   line-height: 1.4em;
   border-radius: 3px;
+  direction: ltr;
+  float: left;  
 }
