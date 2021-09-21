@@ -23,6 +23,11 @@
             </a></li>
           {{end}}
         </ul>
+        {{ with .Params.donate }}
+          <div><a href="{{.link | safeURL}}">
+            <span style="font-size: 12px;">{{.text}}</span>
+          </a></div>
+        {{end}}
         <p>{{- .Summary | truncate 100 -}} &nbsp; <br><a class="text-dark" href="{{.Permalink}}">بیشتر بدانید..</a></p>
       </div>
       {{end}}

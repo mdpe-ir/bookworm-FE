@@ -17,6 +17,11 @@
             </a></li>
           {{end}}
         </ul>
+        {{ with .Params.donate }}
+          <div><a href="{{.link | safeURL}}">
+            <span style="font-size: 12px;">{{.text}}</span>
+          </a></div>
+        {{end}}
       </div>
       <div class="col-lg-8">
         <div class="content">
