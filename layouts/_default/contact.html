@@ -9,7 +9,7 @@
         <ul class="social-links list-unstyled list-inline mt-4">
           {{ range .social_links }}
           <li class="list-inline-item"><a href="{{.link | safeURL}}">
-              <img src="{{.img}}" style="border-radius: 20px;width:12vw;min-width: 78px;">
+              <img src="{{.img}}" style="border-radius: 20px;width:12vw;min-width: 78px;max-width: 185px;">
             </a></li>
           {{end}}
         </ul>
