@@ -1,11 +1,10 @@
-# Bookworm FOSSFA Edition
+# Bookworm MdDaily Edition Based On FOSSFA Editation
 
-The Simple Fork of Hugo Bookworm Theme ,Customize for FOSSFA Blog | Optimized for RTL languages 
-
+The Simple Fork of FOSSFA Theme ,Customize for MdDaily Course| Optimized for RTL languages
 
 ## How to Use
 
 1. the Clone this Repo to `themes`
 2. add `theme = "bookworm-FE"` in Config.toml
-3. Copy [ExampleSite](https://github.com/FOSSFA/FOSSFA.github.io) and Config
+3. Copy [ExampleSite](https://github.com/mdpe-ir/MdCourse) and Config
 
