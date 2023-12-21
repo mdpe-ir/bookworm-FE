@@ -2,31 +2,14 @@
     direction: rtl;
 }
 
-@import url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css');
-@import url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css');
-
-@font-face {
-  font-family: Vazir Code;
-  src: url('Vazir-Code.eot');
-  src: url('Vazir-Code.eot?#iefix') format('embedded-opentype'),
-       url('Vazir-Code.woff') format('woff'),
-       url('Vazir-Code.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: Vazir Code Hack;
-  src: url('Vazir-Code-Hack.eot');
-  src: url('Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
-       url('Vazir-Code-Hack.woff') format('woff'),
-       url('Vazir-Code-Hack.ttf') format('truetype');
-  font-weight: normal;
-}
+@import url('https://unpkg.com/vazirmatn@33.0.3/Vazirmatn-Variable-font-face.css');
+@import url('https://unpkg.com/vazir-code-font@1.1.2/dist/font-face.css');
+/* @import url('https://unpkg.com/shabnam-font@5.0.0/dist/font-face.css'); */
 
 pre,
 code {
   color: #000000;
-  font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;  
+  font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;
 }
 
 pre {
