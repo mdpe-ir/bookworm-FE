@@ -174,12 +174,13 @@
     // A function to get a text and convert it to Persian date time format
 
     function convertDataToPersian(text) {
+        const [datePart, timePart] = text.split(' ');
+        const combinedDateTimeString = datePart + 'T' + timePart;
+        const dateObject = new Date(combinedDateTimeString);
+        const adjustedTime = dateObject.getTime();
+        const adjustedDateObject = new Date(adjustedTime);
         let options = {year: 'numeric', month: 'long', day: 'numeric'};
-
-        let date = new Date(text).toLocaleDateString('fa-IR', options);
-
-        return date;
-
+        return new Date(adjustedDateObject).toLocaleDateString('fa-IR', options);
     }
 </script>
 
